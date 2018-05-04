@@ -1,0 +1,21 @@
+{
+  "name": "sprint-challenge-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Nedu/Sprint-Challenge-Node-Express.git",
+  "author": "Nedu Robert <nedumrobert@gmail.com>",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "knex": "^0.14.6",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
